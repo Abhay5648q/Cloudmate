@@ -1,0 +1,43 @@
+name: cloudmate
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.6
+  http: ^1.4.0
+  intl: ^0.20.2
+ 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+ 
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/mainlogo.png
+
+flutter_native_splash:
+  color: "#104D82" 
+  background_image: "assets/images/splash_img.png"
+  image: assets/images/mainlogo.png
+  android_gravity: center
+  android_12:
+    image: assets/images/mainlogo.png
+    color: "#104D82"
+  
