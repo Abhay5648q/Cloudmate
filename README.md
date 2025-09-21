@@ -1,21 +1,25 @@
-<<<<<<< HEAD
-# cloudmate
+# 🌤️ Cloudmate – Weather Forecast App
 
-A new Flutter project.
+**Cloudmate** is a sleek and responsive Flutter application that provides real-time weather updates for any city worldwide. Designed with clarity and usability in mind, it offers essential weather insights to help users plan their day with confidence.
 
-## Getting Started
+## 🔍 Features
 
-This project is a starting point for a Flutter application.
+- 🌡️ Current temperature in Celsius  
+- 🌥️ Live weather conditions (sunny, cloudy, rainy, etc.)  
+- 🌬️ Air Quality Index (AQI) for health awareness  
+- 🌅 Sunrise and 🌇 Sunset timings  
+- 📅 5-day weather forecast with daily breakdown  
+- 🔎 City-based search with instant results  
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** for cross-platform mobile development  
+- **OpenWeatherMap API** for weather and AQI data  
+- **Dart** for app logic and state management  
+- **Responsive UI** with gradient styling and iconography  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Cloudmate
-This application allows users to enter any city name and instantly view the current temperature in Celsius, weather conditions, air quality index, sunrise and sunset timings, and a 5-day forecast. It features a responsive design and real-time data integration, highlighting my skills in API handling and user-focused UI development.
->>>>>>> 754b5219b30701d43999d1c0087e1b9fd262b6da
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Abhay5648q/Cloudmate.git
